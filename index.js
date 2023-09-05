@@ -21,3 +21,10 @@ fetch("http://localhost:3000/games")
         gameTitles.appendChild(newSpan)
     });
 })
+
+function generateDetails(game){
+    gameImg.src = game.image
+    gameName.textContent = game.title
+    gameDescription.textContent = game.decription
+    gameTime = game.time
+}
