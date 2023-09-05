@@ -8,7 +8,9 @@
             "console" : false,
             "image" : "./assets/valorantFrontPage.webp",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "Infinite"
         },
         {
             "id" : 2,
@@ -18,7 +20,9 @@
             "console" : true,
             "image" : "./assets/TOTK.jpg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "59"
         },
         {
             "id" : 3,
@@ -28,7 +32,9 @@
             "console" : true,
             "image" : "./assets/Overwatch2.avif",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "Infinity"
         },
         {
             "id" : 4,
@@ -38,7 +44,9 @@
             "console" : true,
             "image" : "./assets/StarDew-Valley.jpg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "52"
         },
         {
             "id" : 5,
@@ -48,7 +56,9 @@
             "console" : true,
             "image" : "./assets/SmashBrosUltimate.webp",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "24 to infinite"
         },
         {
             "id" : 6,
@@ -58,7 +68,9 @@
             "console" : true,
             "image" : "./assets/RedDeadRedemp2.jpg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "50"
         },
         {
             "id" : 7,
@@ -68,7 +80,9 @@
             "console" : true,
             "image" : "./assets/GTASanAndreas.jpg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "30"
         },
         {
             "id" : 8,
@@ -76,9 +90,11 @@
             "release" : 2017,
             "pc" : false,
             "console" : true,
-            "image" : "./assets/SuperMarioOdyseey.avif",
+            "image" : "./assets/SuperMarioOdyssey.jpeg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "13"
         },
         {
             "id" : 9,
@@ -88,7 +104,9 @@
             "console" : true,
             "image" : "./assets/ResidentEvil4.jpg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "16",
+            "time" : 0
         },
         {
             "id" : 10,
@@ -98,7 +116,9 @@
             "console" : true,
             "image" : "./assets/MonsterHunter.jpg",
             "likes" : 0,
-            "comments" : ""
+            "comments" : "",
+            "description" : "",
+            "time" : "50"
         }
     ]
 }
