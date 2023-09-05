@@ -18,6 +18,7 @@ header img {
     width:25%;
     height: 100%;
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     display:block;
 }
@@ -29,6 +30,7 @@ header img {
 #container {
     display:flex;
     height:100%;
+    background-color: rgb(103, 47, 103);
 }
 
 #games span {
@@ -62,7 +64,7 @@ header img {
     margin-left: 20px;
     margin-top: 20px;
     padding: 20px;
-    width:40%;
+    width:60%;
     height:auto;
     background-color: rgba(255, 255, 255, 0.75);
 }
@@ -76,14 +78,14 @@ header img {
     font-size: 1.25em;
 }
 
-/* input[type=submit] {
+input[type=submit] {
     border:0px;
     background:white;
     font-size: 1em;
     border: 1px solid black;
     margin-left: 10px;
     border-radius: 10px;
-}  */
+}  
 
 /* input[type=text] {
     width: 150px;
@@ -91,7 +93,7 @@ header img {
     border: 1px solid black;
     border-radius: 10px;
     padding:10px;
-} */
+}
 
 /* .icon {
     width:2em;
