@@ -15,13 +15,16 @@ fetch("http://localhost:3000/games")
 .then(gameList => {
     gameList.forEach(game => {
         const newSpan = document.createElement("span")
-
         newSpan.textContent = game.title;
-
         gameTitles.appendChild(newSpan)
+
+        newSpan.addEventListener("click", ()=>{
+            generateDetails(game);
+        })
     });
 })
 
+// A new function to generate all the details within the game
 function generateDetails(game){
     gameImg.src = game.image
     gameName.textContent = game.title
