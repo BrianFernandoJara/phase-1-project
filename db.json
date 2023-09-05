@@ -10,7 +10,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : "Infinity"
+            "time" : "Infinite"
         },
         {
             "id" : 2,
@@ -22,7 +22,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "59"
         },
         {
             "id" : 3,
@@ -46,7 +46,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "52"
         },
         {
             "id" : 5,
@@ -58,7 +58,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "24 to infinite"
         },
         {
             "id" : 6,
@@ -70,7 +70,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "50"
         },
         {
             "id" : 7,
@@ -82,7 +82,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "30"
         },
         {
             "id" : 8,
@@ -94,7 +94,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "13"
         },
         {
             "id" : 9,
@@ -105,7 +105,7 @@
             "image" : "./assets/ResidentEvil4.jpg",
             "likes" : 0,
             "comments" : "",
-            "description" : "",
+            "description" : "16",
             "time" : 0
         },
         {
@@ -118,7 +118,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "50"
         }
     ]
 }
