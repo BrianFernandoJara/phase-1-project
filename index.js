@@ -5,7 +5,7 @@ const gameTitles = document.querySelector("#game-titles");
 //The variables below are for the game details thatll be shown off
 const gameImg = document.querySelector("#game-image");
 const gameName =  document.querySelector("#game-name");
-const gameDescription = document.querySelector("game-description")
+const gameDescription = document.querySelector("#game-description")
 const gameTime = document.querySelector("#game-play-time")
 
 
@@ -30,5 +30,5 @@ function generateDetails(game){
     gameImg.src = game.image
     gameName.textContent = game.title
     gameDescription.textContent = game.decription
-    gameTime = game.time
+    gameTime.textContent = game.time
 }
