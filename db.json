@@ -45,7 +45,7 @@
             "image" : "./assets/StarDew-Valley.jpg",
             "likes" : 0,
             "comments" : "",
-            "description" : "",
+            "description" : "Stardew Valley is a beloved indie farming simulation game developed by ConcernedApe. In this game, players inherit a run-down farm and must transform it into a thriving agricultural paradise. Alongside farming, players can mine for resources, fish, raise animals, and build relationships with the charming residents of Pelican Town. Stardew Valley offers a relaxing and immersive experience, allowing players to customize their farms and play at their own pace. With its endearing pixel art style and endless possibilities, it has become a favorite among fans of simulation and sandbox games.",
             "time" : "52"
         },
         {
@@ -57,7 +57,7 @@
             "image" : "./assets/SmashBrosUltimate.webp",
             "likes" : 0,
             "comments" : "",
-            "description" : "",
+            "description" : "Super Smash Bros. Ultimate is a critically acclaimed crossover fighting game developed by Nintendo for the Nintendo Switch. It features an extensive roster of over 70 iconic characters from various gaming franchises, including Mario, Link, Pikachu, and many more. Players engage in fast-paced battles where the objective is to knock opponents off the stage. The game offers a variety of game modes, including a robust single-player adventure and multiplayer options, both locally and online. Super Smash Bros. Ultimate is celebrated for its accessibility, nostalgia-inducing character lineup, and competitive depth, making it a must-play title for fans of the series and gaming enthusiasts alike.",
             "time" : "24 to infinite"
         },
         {
@@ -68,7 +68,7 @@
             "console" : true,
             "image" : "./assets/RedDeadRedemp2.jpg",
             "likes" : 0,
-            "comments" : "",
+            "comments" : "Red Dead Redemption 2 is an epic open-world action-adventure game developed by Rockstar Games. Set in the late 1800s, it immerses players in the American Wild West, offering a vast and stunningly detailed open world to explore. Players assume the role of Arthur Morgan, an outlaw and member of the Van der Linde gang, as they navigate a captivating narrative filled with moral choices and complex characters. The game is known for its realism, intricate storytelling, and a wide range of activities, from gunfights and heists to hunting and fishing. Red Dead Redemption 2 is widely regarded as one of the greatest video games of its generation.",
             "description" : "",
             "time" : "50"
         },
@@ -81,7 +81,7 @@
             "image" : "./assets/GTASanAndreas.jpg",
             "likes" : 0,
             "comments" : "",
-            "description" : "",
+            "description" : "Grand Theft Auto: San Andreas is an iconic open-world action-adventure game developed by Rockstar North. Released in 2004, it's set in a fictional state of San Andreas, loosely based on California in the early 1990s. Players assume the role of Carl 'CJ' Johnson as he returns to his hometown and gets caught up in gang conflicts, crime, and a vast criminal underworld. The game is known for its extensive open world, diverse missions, and the ability to freely explore cities, countryside, and even fly planes. GTA: San Andreas is celebrated for its immersive storytelling, humor, and memorable characters, making it a classic in the Grand Theft Auto series.",
             "time" : "30"
         },
         {
@@ -93,7 +93,7 @@
             "image" : "./assets/SuperMarioOdyssey.jpeg",
             "likes" : 0,
             "comments" : "",
-            "description" : "",
+            "description" : "Super Mario Odyssey is a captivating 3D platformer developed by Nintendo for the Nintendo Switch. In this delightful adventure, players join Mario on a globe-trotting quest to rescue Princess Peach from the clutches of Bowser. Mario's trusty hat, Cappy, plays a central role, allowing him to possess and control various objects and creatures, adding a unique gameplay mechanic. The game features diverse and imaginative kingdoms to explore, each with its own theme and challenges. Super Mario Odyssey combines classic platforming with innovation, offering a joyful and visually stunning experience that has charmed players of all ages.",
             "time" : "13"
         },
         {
@@ -105,8 +105,8 @@
             "image" : "./assets/ResidentEvil4.jpg",
             "likes" : 0,
             "comments" : "",
-            "description" : "16",
-            "time" : 0
+            "description" : "Resident Evil 4 is a critically acclaimed survival horror game developed by Capcom. It follows the story of Leon S. Kennedy, a government agent, as he embarks on a mission to rescue the President's daughter from a mysterious cult in a rural European village. The game introduced a new over-the-shoulder perspective and emphasized action-packed gameplay while retaining elements of horror. With its intense combat, memorable enemies like the chainsaw-wielding Ganados, and a gripping narrative, Resident Evil 4 is considered a landmark title in the series and the survival horror genre, influencing many subsequent games.",
+            "time" : "16"
         },
         {
             "id" : 10,
@@ -117,7 +117,7 @@
             "image" : "./assets/MonsterHunter.jpg",
             "likes" : 0,
             "comments" : "",
-            "description" : "",
+            "description" : "Monster Hunter (2004) is the inaugural installment of Capcom's beloved action RPG series. In this game, players step into the shoes of a brave Hunter, tasked with tracking and slaying various colossal monsters in a richly detailed fantasy world. The game's core gameplay revolves around strategic combat, resource gathering, and crafting, allowing players to fashion potent gear from their hard-earned spoils. Monster Hunter's cooperative multiplayer mode, where teams of players could join forces to hunt together, was a defining feature of the series. With its immersive, challenging gameplay and a deep focus on preparation and teamwork, Monster Hunter (2004) laid the foundation for the franchise's enduring success.",
             "time" : "50"
         }
     ]
