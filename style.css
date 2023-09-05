@@ -10,7 +10,7 @@ header {
 }
 
 header img {
-    height: 50px;
+    height: 5px;
     width: auto;
 }
 
@@ -76,24 +76,24 @@ header img {
     font-size: 1.25em;
 }
 
-input[type=submit] {
+/* input[type=submit] {
     border:0px;
     background:white;
     font-size: 1em;
     border: 1px solid black;
     margin-left: 10px;
     border-radius: 10px;
-}
+}  */
 
-input[type=text] {
+/* input[type=text] {
     width: 150px;
     font-size: 1em;
     border: 1px solid black;
     border-radius: 10px;
     padding:10px;
-}
+} */
 
-.icon {
+/* .icon {
     width:2em;
     height:auto;
     vertical-align: middle;
@@ -102,4 +102,4 @@ input[type=text] {
 form {
     display:flex;
     height: 30px;
-}
+} */
