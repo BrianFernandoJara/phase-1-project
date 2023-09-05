@@ -29,6 +29,6 @@ fetch("http://localhost:3000/games")
 function generateDetails(game){
     gameImg.src = game.image
     gameName.textContent = game.title
-    gameDescription.textContent = game.description
+    // gameDescription.textContent = game.description
     gameTime.textContent = game.time + " hours of content"
 }
