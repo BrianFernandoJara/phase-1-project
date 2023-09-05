@@ -22,6 +22,7 @@ fetch("http://localhost:3000/games")
             generateDetails(game);
         })
     });
+    generateDetails(gameList[0])
 })
 
 // A new function to generate all the details within the game
