@@ -6,12 +6,12 @@ html, body {
 
 header {
     background-color: #000000;
-    padding: 20px;
+    padding: 10px;
 }
 
 header img {
-    height: 5px;
-    width: auto;
+    height: 200px;
+    width: 225px;
 }
 
 #games {
