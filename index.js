@@ -30,5 +30,5 @@ function generateDetails(game){
     gameImg.src = game.image
     gameName.textContent = game.title
     gameDescription.textContent = game.decription
-    gameTime.textContent = game.time
+    gameTime.textContent = game.time + " hours of content"
 }

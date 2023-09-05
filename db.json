@@ -34,7 +34,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "",
-            "time" : 0
+            "time" : "Infinity"
         },
         {
             "id" : 4,
