@@ -1,6 +1,6 @@
 
 //The variable below is for the div that holds the game titles
-const container = document.querySelector("#game-titles");
+const gameTitles = document.querySelector("#game-titles");
 
 //The variables below are for the game details thatll be shown off
 const gameImg = document.querySelector("#game-image");
@@ -13,5 +13,11 @@ const gameTime = document.querySelector("#game-play-time")
 fetch("http://localhost:3000/games")
 .then(resp => resp.json())
 .then(gameList => {
-    console.log(gameList)
+    gameList.forEach(game => {
+        const newSpan = document.createElement("span")
+
+        newSpan.textContent = game.title;
+
+        gameTitles.appendChild(newSpan)
+    });
 })
