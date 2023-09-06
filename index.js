@@ -8,6 +8,10 @@ const gameName =  document.querySelector("#game-name");
 const gameDescription = document.querySelector("#game-description")
 const gameTime = document.querySelector("#game-play-time")
 
+//The variables below are the form that allows the user to add a comment
+const commentForm = document.querySelector("#game-form")
+const newComment = document.querySelector("#cart-amount")
+const commentHTML = document.querySelector("#game-comments")
 
 // Grabs the information in the data base
 fetch("http://localhost:3000/games")
@@ -32,3 +36,16 @@ function generateDetails(game){
     // gameDescription.textContent = game.description
     gameTime.textContent = game.time + " hours of content"
 }
+
+commentForm.addEventListener("submit",(event)=>{
+    event.preventDefault();
+    const commentSpan = document.createElement("span")
+    const lineBreak = document.createElement("br")  
+
+    commentSpan.textContent = newComment.value
+
+    commentHTML.appendChild(lineBreak)
+    commentHTML.appendChild(commentSpan);
+
+    event.target.reset();
+})
