@@ -58,6 +58,11 @@ header img {
     margin-top: 20px;
 }
 
+#game-image {
+    width: 650px;
+    height: 350px;
+}
+
 #game-text {
     position: absolute;
     top:0px;
