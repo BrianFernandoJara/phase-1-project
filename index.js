@@ -12,6 +12,10 @@ const gameTime = document.querySelector("#game-play-time")
 const commentForm = document.querySelector("#game-form")
 const newComment = document.querySelector("#cart-amount")
 const commentHTML = document.querySelector("#game-comments")
+// the variables below are for the user login feature
+const loginForm = document.getElementById("loginForm");
+const loginMessage = document.getElementById("loginMessage");
+
 
 // Grabs the information in the data base
 fetch("http://localhost:3000/games")
@@ -49,3 +53,26 @@ commentForm.addEventListener("submit",(event)=>{
 
     event.target.reset();
 })
+
+loginForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    // Replace with your own authentication logic
+    if (authenticateUser(username, password)) {
+        loginMessage.textContent = "Login successful!";
+    } else {
+        loginMessage.textContent = "Invalid username or password. Please try again.";
+    }
+});
+
+function authenticateUser(username, password) {
+    // Replace this with your actual authentication logic (e.g., check a database)
+    // For this example, we'll use hardcoded values.
+    const validUsername = "user";
+    const validPassword = "password";
+
+    return username === validUsername && password === validPassword;
+}

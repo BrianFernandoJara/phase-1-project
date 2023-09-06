@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Questrial', sans-serif;
+    font-family: OCR A Std, monospace;
 }
 
 header {
@@ -24,13 +24,14 @@ header img {
 }
 
 #games h2 {
-    font-size: 3em;
+    font-size: 2em;
+    font-family: OCR A Std, monospace;
 }
 
 #container {
     display:flex;
     height:200%;
-    background-color: rgb(103, 47, 103);
+    background-color: rgb(133, 93, 156);
 }
 
 #games span {
@@ -49,7 +50,7 @@ header img {
 }
 
 #games span:hover {
-    color: rgb(76, 76, 244);
+    color: white;
     cursor: pointer;
 }
 
