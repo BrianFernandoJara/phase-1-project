@@ -10,8 +10,9 @@ const gameTime = document.querySelector("#game-play-time")
 
 //The variables below are the form that allows the user to add a comment
 const commentForm = document.querySelector("#game-form")
-const newComment = document.querySelector("#cart-amount")
+const newComment = document.querySelector("#new-comment")
 const commentHTML = document.querySelector("#game-comments")
+const commentAmount = document.querySelector("#number-of-comment")
 // the variables below are for the user login feature
 const loginForm = document.getElementById("loginForm");
 const loginMessage = document.getElementById("loginMessage");
@@ -51,6 +52,9 @@ commentForm.addEventListener("submit",(event)=>{
     commentHTML.appendChild(lineBreak)
     commentHTML.appendChild(commentSpan);
 
+    let numberOfComments = parseInt(commentAmount.textContent)
+    numberOfComments = numberOfComments + 1;
+    commentAmount.textContent = numberOfComments;
     event.target.reset();
 })
 
