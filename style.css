@@ -66,17 +66,22 @@ header img {
 #game-text {
     position: absolute;
     top:0px;
-    margin-left: 20px;
-    margin-top: 20px;
-    padding: 20px;
-    width:40%;
     height:auto;
-    background-color: rgba(255, 255, 255, 0.75);
 }
 
 #game-name {
     text-transform: uppercase;
     font-size: 1.5em;
+    background-image: image-set("./assets/TitleBG.png");
+    margin-top: 250px;
+    color: white;
+    width: 410px;
+}
+
+#game-play-time {
+    background-image: image-set("./assets/HoursBG.png");
+    color: white;
+    width: 276.5px;
 }
 
 #game-description {

@@ -12,7 +12,7 @@
         },
         {
             "id" : 2,
-            "title" : "Legend Of Zelda: Tears of The Kingdom",
+            "title" : "Legend Of Zelda: TOK",
             "release" : 2023,
             "image" : "./assets/TOTK.jpg",
             "likes" : 0,
@@ -48,7 +48,7 @@
             "likes" : 0,
             "comments" : "",
             "description" : "Super Smash Bros. Ultimate is a critically acclaimed crossover fighting game developed by Nintendo for the Nintendo Switch. It features an extensive roster of over 70 iconic characters from various gaming franchises, including Mario, Link, Pikachu, and many more. Players engage in fast-paced battles where the objective is to knock opponents off the stage. The game offers a variety of game modes, including a robust single-player adventure and multiplayer options, both locally and online. Super Smash Bros. Ultimate is celebrated for its accessibility, nostalgia-inducing character lineup, and competitive depth, making it a must-play title for fans of the series and gaming enthusiasts alike.",
-            "time" : "24 to infinite"
+            "time" : "24"
         },
         {
             "id" : 6,
