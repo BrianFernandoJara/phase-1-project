@@ -96,7 +96,27 @@ input[type=submit] {
     border: 1px solid black;
     margin-left: 10px;
     border-radius: 10px;
-}  
+}
+
+
+.game-title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#game-preview {
+    display: none;
+    position: absolute;
+    top: 205;
+    right: 1000;
+}
+
+#game-preview-image {
+    max-width: 200px; /* Adjust the size as needed */
+    max-height: 200px; /* Adjust the size as needed */
+}
 
 /* input[type=text] {
     width: 150px;

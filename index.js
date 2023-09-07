@@ -16,6 +16,10 @@ const commentAmount = document.querySelector("#number-of-comment")
 // the variables below are for the user login feature
 const loginForm = document.getElementById("loginForm");
 const loginMessage = document.getElementById("loginMessage");
+// the variables below are for image preview
+const gamePreview = document.getElementById("game-preview");
+const gamePreviewImage = document.getElementById("game-preview-image");
+
 
 
 // Grabs the information in the data base
@@ -30,6 +34,18 @@ fetch("http://localhost:3000/games")
         newSpan.addEventListener("click", ()=>{
             generateDetails(game);
         })
+        newSpan.addEventListener("mouseover", () => {
+            // Show the preview when hovering over the title
+            if (game.image) {
+                gamePreviewImage.src = game.image;
+                gamePreview.style.display = "block";
+            }
+        });
+        newSpan.addEventListener("mouseout", () => {
+            // Hide the preview when moving the mouse away
+            gamePreview.style.display = "none";
+        });
+
     });
     generateDetails(gameList[0])
 })
