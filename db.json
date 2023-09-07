@@ -100,6 +100,12 @@
             "description" : "Monster Hunter (2004) is the inaugural installment of Capcom's beloved action RPG series. In this game, players step into the shoes of a brave Hunter, tasked with tracking and slaying various colossal monsters in a richly detailed fantasy world. The game's core gameplay revolves around strategic combat, resource gathering, and crafting, allowing players to fashion potent gear from their hard-earned spoils. Monster Hunter's cooperative multiplayer mode, where teams of players could join forces to hunt together, was a defining feature of the series. With its immersive, challenging gameplay and a deep focus on preparation and teamwork, Monster Hunter (2004) laid the foundation for the franchise's enduring success.",
             "time" : "50"
         }
+    ],
+    "userInfo" :[
+        {
+        "userName" : "",
+        "password" : ""
+    }
     ]
     
 }
